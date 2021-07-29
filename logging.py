@@ -16,6 +16,3 @@ logging.basicConfig(
     format='%(process)d - %(asctime)s - %(message)s',
     filename= logPath + "/" +fileName
 )
-
-# Giving a log it started.
-logging.info("Logging started!")
